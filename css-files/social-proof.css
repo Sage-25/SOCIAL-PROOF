@@ -1,0 +1,107 @@
+.first-section {
+  display: grid;
+  grid-template-columns: 20rem 30rem;
+  align-items: center;
+  gap: 13rem;
+  margin-bottom: 3rem;
+  padding-inline-start: 1rem;
+  padding-inline-end: 1rem;
+}
+
+.main-header {
+  font-size: 3rem;
+  line-height: 2.5rem;
+  color: hsl(300, 43%, 22%);
+}
+
+.main-body {
+  color: hsl(303, 10%, 53%);
+  margin-block-start: 1rem;
+  line-height: 1.4rem;
+}
+
+/* this is the rating section */
+.ratings {
+  position: absolute;
+}
+
+.ratings-container-1,
+.ratings-container-2,
+.ratings-container-3 {
+  display: grid;
+  grid-template-columns: 8rem 1fr;
+  padding: 1.2rem 2rem;
+  background-color: hsl(300, 24%, 96%);
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  position: relative;
+  left: 38rem;
+}
+
+.ratings-container-1 {
+  left: 30rem;
+}
+
+.ratings-container-2 {
+  left: 34rem;
+}
+
+.review-title {
+  color: hsl(300, 43%, 22%);
+  font-weight: bold;
+}
+
+/* this is the card section*/
+.second-section {
+  display: grid;
+  grid-template-columns: 20rem 20rem 20rem;
+  padding-inline-start: 1rem;
+  padding-inline-end: 1rem;
+  gap: 1.5rem;
+  position: absolute;
+}
+
+.review-card-1,
+.review-card-2,
+.review-card-3 {
+  padding: 2rem;
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 0.5rem;
+}
+
+.review-card-2 {
+  position: relative;
+  top: 1rem;
+}
+
+.review-card-3 {
+  position: relative;
+  top: 2rem;
+}
+
+.image-name-verification {
+  display: grid;
+  grid-template-columns: 4.5rem 1fr;
+  align-items: center;
+  margin-block-end: 1.5rem;
+}
+
+.avatar-image {
+  width: 3rem;
+  border-radius: 20rem;
+}
+
+.card-header {
+  color: white;
+  font-size: 1rem;
+  margin-bottom: 0.2rem;
+}
+
+.card-verified-buyer {
+  color: hsl(333, 80%, 67%);
+}
+
+.card-body {
+  color: white;
+  line-height: 1.3rem;
+}

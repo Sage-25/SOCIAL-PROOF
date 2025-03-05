@@ -1,0 +1,71 @@
+@media (min-width: 120px) and (max-width: 1012px) {
+  .first-section {
+    grid-template-columns: none;
+    gap: 0;
+  }
+}
+
+@media (min-width: 120px) and (max-width: 1012px) {
+  .main-header {
+    text-align: center;
+  }
+}
+
+@media (min-width: 120px) and (max-width: 1012px) {
+  .main-body {
+    text-align: center;
+  }
+}
+
+@media (min-width: 120px) and (max-width: 1012px) {
+  .ratings {
+    position: relative;
+    margin-block-start: 2rem;
+  }
+}
+
+@media (min-width: 120px) and (max-width: 1012px) {
+  .ratings-container-1,
+  .ratings-container-2,
+  .ratings-container-3 {
+    position: none;
+    left: 0;
+    grid-template-columns: none;
+    text-align: center;
+  }
+}
+
+@media (min-width: 120px) and (max-width: 1012px) {
+  .ratings-container-3 {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 120px) and (max-width: 1012px) {
+  .ratings-container-1,
+  .ratings-container-2 {
+    left: 0;
+  }
+}
+
+@media (min-width: 120px) and (max-width: 1012px) {
+  .review-title {
+    margin-block-start: 0.5rem;
+  }
+}
+
+@media (min-width: 120px) and (max-width: 1012px) {
+  .second-section {
+    grid-template-columns: none;
+    gap: 1rem;
+  }
+}
+
+@media (min-width: 120px) and (max-width: 1012px) {
+  .review-card-2,
+  .review-card-3 {
+    position: none;
+    top: 0;
+  }
+}
+

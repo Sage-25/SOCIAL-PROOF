@@ -1,0 +1,24 @@
+p,
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+  font-family: League Spartan;
+}
+
+.body {
+  background-color: white;
+  background-image: s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
